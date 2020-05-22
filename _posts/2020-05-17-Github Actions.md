@@ -6,7 +6,8 @@ featured-img: shane-rounce-205187
 #published: false
 ---
 
-<img alt="github actions" src="https://github.githubassets.com/images/modules/actions/actions-hero.png" style="position: absolute; top: 0; right: 0;" />
+<div style="position: relative; height: 0; z-index: -1;"><img alt="github actions" src="https://github.githubassets.com/images/modules/actions/actions-hero.png" style="position: absolute; top: 0; right: 0;" /></div>
+
 
 ## Github Actions
 
@@ -145,3 +146,7 @@ macOS Catalina 10.15 | macos-latest or macos-10.15
 - name: GitHub Checkout
   uses: actions/checkout@v1
 ```
+
+## 实战
+
+部署 create-react-app 生成的项目：[demo](https://github.com/liuswin/github-actions-demo)
